@@ -1,0 +1,48 @@
+<div class="container">
+    <!-- <button class="novareserva mat-elevation-z8" mat-stroked-button color="primary">Nova reserva</button> -->
+    
+    <div class="content">
+        <mat-card class="mat-elevation-z8">
+           
+        </mat-card>
+        <mat-card-header>
+            <form action="/reserva" method="post">
+                <label for="nomeHospede">Nome do Hóspede:</label>
+                <input type="text" id="nomeHospede" name="nomeHospede" required>
+                
+                <label for="dataInicio">Data de Início:</label>
+                <input type="date" id="dataInicio" name="dataInicio" required>
+                
+                <label for="dataFim">Data do Fim:</label>
+                <input type="date" id="dataFim" name="dataFim" required>
+                
+                <label for="quantidadePessoas">Quantidade de Pessoas:</label>
+                <select id="quantidadePessoas" name="quantidadePessoas" required>
+                    <option value="1">1 pessoa</option>
+                    <option value="2">2 pessoas</option>
+                    <option value="3">3 pessoas</option>
+                </select>
+                <div class="actions">
+                    <button mat-mini-fab color="primary">
+                        <mat-icon>done</mat-icon>
+                    </button>
+    
+                    <button mat-mini-fab color="primary">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                    <button mat-mini-fab color="primary">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+    
+                </div>
+                
+               
+            </form>
+
+           
+               
+           
+        </mat-card-header>
+
+    </div>
+</div>

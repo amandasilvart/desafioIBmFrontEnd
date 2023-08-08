@@ -1,0 +1,57 @@
+form {
+    border-radius: 20px;
+    background-color: #C9B200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    opacity: 85%;
+  }
+  
+
+label,
+input,
+select {
+    display: block;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 28px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+
+.container{
+    margin: auto;
+    background: url(../../../assets/img/Hawaii_beach_coast_palm_4K_High_Quality_1366x768.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.content{
+    width: 100%;
+
+}
+
+.novareserva{
+    width: 100%;
+    margin-top: 3rem;
+}
+p{
+    text-align: end;
+    font-weight: 600;
+}
+button{
+    background-color: aliceblue;
+}
+button:hover {
+    background-color: rgb(134, 206, 230); 
+}
+
